@@ -18,42 +18,42 @@
                     <div class="fl header-left">
                         <el-row :gutter="10">
                             <el-col :span="12">
-                                <div class="pr">
+                                <div class="pr cp" @click="showDIalog">
                                     <div class="left-shadow"></div>
                                     <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                                 </div>
 
                             </el-col>
                             <el-col :span="12">
-                                <div class="pr">
+                                <div class="pr cp" @click="showDIalog">
                                     <div class="left-shadow"></div>
                                     <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                                 </div>
 
                             </el-col>
                             <el-col class="left-img" :span="12">
-                                <div class="pr">
+                                <div class="pr cp" @click="showDIalog">
                                     <div class="left-shadow"></div>
                                     <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                                 </div>
 
                             </el-col>
                             <el-col class="left-img" :span="12">
-                                <div class="pr">
+                                <div class="pr cp" @click="showDIalog">
                                     <div class="left-shadow"></div>
                                     <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                                 </div>
 
                             </el-col>
                             <el-col class="left-img" :span="12">
-                                <div class="pr">
+                                <div class="pr cp" @click="showDIalog">
                                     <div class="left-shadow"></div>
                                     <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                                 </div>
 
                             </el-col>
                             <el-col class="left-img" :span="12">
-                                <div class="pr">
+                                <div class="pr cp" @click="showDIalog">
                                     <div class="left-shadow"></div>
                                     <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                                 </div>
@@ -76,70 +76,70 @@
             <div class="mt-50">
                 <el-row :gutter="10">
                     <el-col :span="4">
-                        <div class="pr">
+                        <div class="pr cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="mt-5">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr">
+                        <div class="pr cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                             <div class="mt-5">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr">
+                        <div class="pr cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                             <div class="mt-5">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr">
+                        <div class="pr cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr">
+                        <div class="pr cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr">
+                        <div class="pr cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                         </div>
                     </el-col>
                 </el-row>
                 <el-row :gutter="10" class="mt-30">
                     <el-col :span="4">
-                        <div class="pr">
+                        <div class="pr cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="mt-5">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr">
+                        <div class="pr cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                             <div class="mt-5">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr">
+                        <div class="pr cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                             <div class="mt-5">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr">
+                        <div class="pr cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr">
+                        <div class="pr cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr">
+                        <div class="pr cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
                         </div>
                     </el-col>
@@ -149,43 +149,43 @@
         <div class="index-puple w">
             <div class="container pt-50 pb-50">
                 <div>
-                <nav class="f20 cb mb-40"><img class="nav-i fl mr-15" src="http://img.airtoy.cn/ts-lightning.svg">
-                    <span class="fl color-white"> 近期最火</span>
-                </nav>
-            </div>
+                    <nav class="f20 cb mb-40"><img class="nav-i fl mr-15" src="http://img.airtoy.cn/ts-lightning.svg">
+                        <span class="fl color-white"> 近期最火</span>
+                    </nav>
+                </div>
                 <el-row :gutter="10">
                     <el-col :span="4">
-                        <div class="pr bg-color-white radius5 oh">
+                        <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="p15">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr bg-color-white radius5 oh">
+                        <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="p15">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr bg-color-white radius5 oh">
+                        <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="p15">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr bg-color-white radius5 oh">
+                        <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="p15">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr bg-color-white radius5 oh">
+                        <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="p15">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr bg-color-white radius5 oh">
+                        <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="p15">夏凡年度首战不一样</div>
                         </div>
@@ -193,37 +193,37 @@
                 </el-row>
                 <el-row :gutter="10" class="mt-30">
                     <el-col :span="4">
-                        <div class="pr bg-color-white radius5 oh">
+                        <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="p15">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr bg-color-white radius5 oh">
+                        <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="p15">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr bg-color-white radius5 oh">
+                        <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="p15">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr bg-color-white radius5 oh">
+                        <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="p15">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr bg-color-white radius5 oh">
+                        <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="p15">夏凡年度首战不一样</div>
                         </div>
                     </el-col>
                     <el-col :span="4">
-                        <div class="pr bg-color-white radius5 oh">
+                        <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
                             <div class="p15">夏凡年度首战不一样</div>
                         </div>
@@ -231,66 +231,192 @@
                 </el-row>
             </div>
         </div>
+        <div class="container pb-50">
+            <div>
+                <nav class="f20 mt-50 cb"><img class="nav-i fl mr-15" src="http://img.airtoy.cn/ts-star-2.svg">
+                    <span class="fl"> 大家喜欢的</span>
+                </nav>
+            </div>
+            <div class="mt-50">
+                <el-row :gutter="10">
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
+                            <div class="mt-5">夏凡年度首战不一样</div>
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                            <div class="mt-5">夏凡年度首战不一样</div>
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                            <div class="mt-5">夏凡年度首战不一样</div>
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                        </div>
+                    </el-col>
+                </el-row>
+                <el-row :gutter="10" class="mt-30">
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
+                            <div class="mt-5">夏凡年度首战不一样</div>
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                            <div class="mt-5">夏凡年度首战不一样</div>
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                            <div class="mt-5">夏凡年度首战不一样</div>
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                        </div>
+                    </el-col>
+                </el-row>
+                <el-row :gutter="10" class="mt-30">
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180814/1/138287835_1333670.jpg!256" alt="">
+                            <div class="mt-5">夏凡年度首战不一样</div>
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                            <div class="mt-5">夏凡年度首战不一样</div>
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                            <div class="mt-5">夏凡年度首战不一样</div>
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                        </div>
+                    </el-col>
+                    <el-col :span="4">
+                        <div class="pr cp" @click="showDIalog">
+                            <img class="w " src="http://ures.kktv8.com/kktv/poster/20180827/4/100803678_4617770.jpg!256" alt="">
+                        </div>
+                    </el-col>
+                </el-row>
+            </div>
+        </div>
+        <el-dialog title="提示" :visible.sync="dialogVisible" width="30%" :before-close="handleClose">
+            <span>这是一段信息</span>
+            <span slot="footer" class="dialog-footer">
+                <el-button @click="dialogVisible = false">取 消</el-button>
+                <el-button type="primary" @click="dialogVisible = false">确 定</el-button>
+            </span>
+        </el-dialog>
     </div>
+
 </template>
 
 <script>
-import { videoPlayer } from 'vue-video-player'
-import 'video.js/dist/video-js.css'
-var data = []
-var now = new Date()
-var value = Math.random() * 1000
+import { videoPlayer } from "vue-video-player";
+import "video.js/dist/video-js.css";
+var data = [];
+var now = new Date();
+var value = Math.random() * 1000;
 export default {
-  data() {
-    return {
-      intervalid: {},
-      intervalidPic: {},
-      page: 1,
-      total: 0,
-      PI: 3.1415926535897932384626,
-      ee: 0.00669342162296594323,
-      aData: 6378245.0,
-      activeIndex: 1,
-      dialogVisible: false,
-      projectData: [],
-      searchData: {
-        phone: '',
-        date: '',
-        password: ''
-      },
-      playerOptions: {
-        // videojs options
+    data() {
+        return {
+             dialogVisible: false,
+            intervalid: {},
+            intervalidPic: {},
+            page: 1,
+            total: 0,
+            PI: 3.1415926535897932384626,
+            ee: 0.00669342162296594323,
+            aData: 6378245.0,
+            activeIndex: 1,
+            dialogVisible: false,
+            projectData: [],
+            searchData: {
+                phone: "",
+                date: "",
+                password: ""
+            },
+            playerOptions: {
+                // videojs options
 
-        muted: false,
-        autoplay: true,
-        language: 'en',
-        playbackRates: [0.7, 1.0, 1.5, 2.0],
-        sources: [
-          {
-            type: 'video/mp4',
-            src:
-              'https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm'
-          }
-        ],
-        poster: '/static/images/author.jpg'
-      }
-    }
-  },
-  components: {
-    // "cd-header": header,
-    // "cd-footer": footer
-    videoPlayer
-  },
-  mounted() {
-    // this.getAll()
-  },
+                muted: false,
+                autoplay: true,
+                language: "en",
+                playbackRates: [0.7, 1.0, 1.5, 2.0],
+                sources: [
+                    {
+                        type: "video/mp4",
+                        src:
+                            "https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm"
+                    }
+                ],
+                poster: "/static/images/author.jpg"
+            }
+        };
+    },
+    components: {
+        // "cd-header": header,
+        // "cd-footer": footer
+        videoPlayer
+    },
+    mounted() {
+        // this.getAll()
+    },
 
-  methods: {
-    onRegister() {
-      this.$router.push({ path: '/register' })
+    methods: {
+        showDIalog(){
+            this.dialogVisible=true
+        },
+        onRegister() {
+            this.$router.push({ path: "/register" });
+        }
     }
-  }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -298,7 +424,8 @@ export default {
 html
     // background-color #855bd9
 .index-puple
-    background:url("http://img.airtoy.cn/bg5.jpg")
+    background url('http://img.airtoy.cn/bg5.jpg')
+    background-size 100%
 .nav-i
     width 30px
 .left-shadow
