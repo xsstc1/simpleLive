@@ -12,15 +12,12 @@
   "dependencies": {
     "axios": "^0.18.0",
     "element-ui": "^2.2.2",
-    "normalize.css": "^3.0.2",
     "vue": "^2.5.13",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
-    "shelljs": "^0.7.6",
-    "echarts":"^4.1.0",
+    "vue-video-player":"^5.0.2",
     "autoprefixer": "^7.1.2",
-    "vue-echarts-v3":"1.0.19",
     "babel-core": "^6.22.1",
     "babel-loader": "^7.1.1",
     "babel-plugin-transform-runtime": "^6.22.0",
