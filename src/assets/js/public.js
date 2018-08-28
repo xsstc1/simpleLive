@@ -41,7 +41,7 @@ export function httpNode(type, url, data, callback, params) {
     if (result.code == 200) {
       callback(result.code, result.data, result.msg);
     } else {
-      callback(result.rspCode, result.data, result.rspMsg);
+      callback(result.code, result.data, result.msg);
     }
   }).catch((error) => {});
 }
