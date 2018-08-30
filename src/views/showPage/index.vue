@@ -482,8 +482,6 @@ export default {
 <style lang="stylus">
 body
     background url('http://img.airtoy.cn/bg_all.jpg')
-    width 1300px
-    margin 0 auto
 .fix-left 
     width 250px
     position fixed
