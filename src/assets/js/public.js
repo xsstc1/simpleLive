@@ -26,7 +26,7 @@ export function formatDate(date) {
 }
 export function httpNode(type, url, data, callback, params) {
   //发布
-  let httpUrl = "http://119.23.48.248:3000/" + url;
+  let httpUrl = "http://89.208.249.170:3000/" + url;
 
   //测试
   // let httpUrl = "http://47.98.40.41:3000/" + url;
