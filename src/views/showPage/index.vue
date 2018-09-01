@@ -18,7 +18,7 @@
                     <div class="fl header-left">
                         <el-row :gutter="10">
 
-                            <el-col :span="12" v-for="data of headerImg">
+                            <el-col :span="12" v-for="data of headerImg" :key="data.id">
                                 <div class="pr oh cp" @click="showDIalog">
                                     <div class="left-shadow"></div>
                                     <img class="w " :src="data.img_url" alt="">
@@ -35,13 +35,13 @@
         <div class="container pb-50">
             <div>
                 <nav class="f20 mt-50 cb"><img class="nav-i fl mr-15" src="http://www.kzb.life/image/ts-star-2-1.svg">
-                    <span class="fl color-white"> 精选推荐</span>
+                    <span class="fl color-6"> 精选推荐</span>
                 </nav>
             </div>
             <div class="mt-50">
                 <el-row :gutter="10">
 
-                    <el-col :span="4" v-for="data of recommendImg">
+                    <el-col :span="4" v-for="data of recommendImg" :key="data.id">
                         <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " :src="data.img_url" alt="">
                             <div class="p15">{{data.name}}</div>
@@ -56,11 +56,11 @@
             <div class="container pt-50 pb-50">
                 <div>
                     <nav class="f20 cb mb-40"><img class="nav-i fl mr-15" src="http://www.kzb.life/image/ts-lightning.svg">
-                        <span class="fl color-white"> 近期最火</span>
+                        <span class="fl color-6"> 近期最火</span>
                     </nav>
                 </div>
                 <el-row :gutter="10">
-                    <el-col :span="4" v-for="data of hotImg">
+                    <el-col :span="4" v-for="data of hotImg" :key="data.id">
                         <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " :src="data.img_url" alt="">
                             <div class="p15">{{data.name}}</div>
@@ -74,12 +74,12 @@
         <div class="container pb-50">
             <div>
                 <nav class="f20 mt-50 cb"><img class="nav-i fl mr-15" src="http://www.kzb.life/image/ts-color-plate%20%281%29.svg">
-                    <span class="fl color-white"> 大家喜欢的</span>
+                    <span class="fl color-6"> 大家喜欢的</span>
                 </nav>
             </div>
             <div class="mt-50">
                 <el-row :gutter="10">
-                    <el-col :span="4" v-for="data of likeImg">
+                    <el-col :span="4" v-for="data of likeImg" :key="data.id">
                         <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " :src="data.img_url" alt="">
                             <div class="p15">{{data.name}}</div>
@@ -93,12 +93,12 @@
         <div class="container pb-50">
             <div>
                 <nav class="f20 mt-50 cb"><img class="nav-i fl mr-15" src="http://www.kzb.life/image/ts-star-2-1.svg">
-                    <span class="fl color-white">值得关注的</span>
+                    <span class="fl color-6">值得关注的</span>
                 </nav>
             </div>
             <div class="mt-50">
                 <el-row :gutter="10">
-                    <el-col :span="4" v-for="data of followImg">
+                    <el-col :span="4" v-for="data of followImg" :key="data.id">
                         <div class="pr bg-color-white radius5 oh cp" @click="showDIalog">
                             <img class="w " :src="data.img_url" alt="">
                             <div class="p15">{{data.name}}</div>
@@ -110,10 +110,10 @@
             </div>
         </div>
         <footer class="footer mt-50">
-            <div class="container  bt-1 wrap_footer">
+            <div class="container wrap_footer">
                 <div class="page_foot mt-30 tc">
 
-                    <div class="item color-white f14">
+                    <div class="item color-6 f14">
                         <span class="mr-10">浙ICP备10213853号-8</span>
                         <!--|<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010502000565">浙公网安备 33010502000565号</a>-->
                         |
@@ -123,7 +123,7 @@
                         |
                         <span class="ml-10">12318全国文化市场举报网站链接</span>
                     </div>
-                    <div class="item mt-15 color-white">
+                    <div class="item mt-15 color-6">
                         <span class="license_box box1" target="_blank"></span>
                         <span class="line mr-10 ml-10">|</span>
                         <span class="license_box box2" target="_blank"></span>
@@ -350,7 +350,8 @@ player
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="stylus">
 body
-    background url('http://www.kzb.life/image/zb_bg.jpg')
+    background-color #f1f1f1
+    // background url('http://www.kzb.life/image/zb_bg.jpg')
 .el-col-4
     margin-top 20px
 .fix-left
@@ -388,8 +389,8 @@ body
     width 100% !important
     height 450px
 .index-bg
-    // background url('http://www.kzb.life/image/footer_bg.jpg')
-    height 600px
+    background url('http://img.airtoy.cn/footer_bg.jpg')
+    height 680px
     padding-top 30px
 .phone-input
     margin-top 200px
@@ -420,4 +421,6 @@ body
     background-position 0 -71px
     vertical-align middle
     display inline-block
+.wrap_footer
+    border-top 1px solid #d8d8d8
 </style>
